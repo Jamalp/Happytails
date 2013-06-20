@@ -23,10 +23,10 @@ end
 jamal = Client.new("Jamal", 26, "male", 1)
 puts jamal
 
-def giving(name, age, breed, gender, fav_toys)
-  puts "An #{Animal} is being given to the shelter"
-  return Animal.new
-end
+# def giving(name, age, breed, gender, fav_toys)
+ # puts "An #{Animal} is being given to the shelter"
+  #return Animal.new
+#end
 
 def adoption(name, age, breed, gender, fav_toys)
   puts "A #{Animal} is being adopted!"
