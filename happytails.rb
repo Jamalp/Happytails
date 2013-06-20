@@ -1,3 +1,8 @@
+# Hey, so I've made a pretty good foundation so far, the stuff thats commented out I think we can either
+# remove or fix.  I'm not sure if the shelter class is necessary but eh, who knows.
+#Anyway check it out, and do what you do.
+
+
 class Client
   attr_accessor :name, :age, :gender, :kids, :pets
 
@@ -107,3 +112,4 @@ luigi = Client.new("Luigi", "8", "Male", 0)
 puts "A client walks in.."
 puts luigi
 
+##
